@@ -5,6 +5,51 @@ body {
     background: white;
 }
 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    position: relative;
+    display: inline-block;
+    float: right;
+}
+
+
+.navbutts {
+    padding-top: 5px;
+    vertical-align: top;
+    float: right;
+    padding-right: 15px;
+    display: inline;
+    text-align: center;
+}
+
+.navbutts:hover {
+    text-decoration: underline;
+}
+
+.button1 {
+    background: #4683ea;
+}
+
+#signin {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 13pt;
+    margin-right: 23px;
+    text-decoration: none;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    line-height: 28px;
+    width: 69px;
+    font-size: 13px;
+    font-weight: bold;
+    background: #4683ea;
+}
+
 h1, h2, form {
     text-align: center;
 }
@@ -15,7 +60,7 @@ h1 {
 
 .searchbar {
     font-size: 15px;
-    width: 582px;
+    width: 484px;
     height: 44px;
     margin: 0 auto;
     padding-left: 40px;
